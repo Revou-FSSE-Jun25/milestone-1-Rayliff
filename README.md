@@ -1,7 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
 # Portofolio Website – Raihan Aliff
-A simple, responsive portofolio website that showcases my profile, skills, and upcoming projects. Built using semantic HTML and styled with CSS, this site will evolve as I grow as a developer.
-
+This simple website was created by Raihan Aliff Wahyudinnur as part of completing Module 1 in Milestone 1.
 
 ## 🚀 Features
 - Header with navbar
@@ -19,4 +18,4 @@ A simple, responsive portofolio website that showcases my profile, skills, and u
 
 ## 📂 Deployment
 Hosted on GitHub Pages  
-👉 [Coming Soon]
+👉 [https://revou-fsse-jun25.github.io/milestone-1-Rayliff/]
