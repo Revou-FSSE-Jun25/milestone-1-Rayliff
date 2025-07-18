@@ -1,0 +1,277 @@
+/*ini settingan awal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*ini untuk ngescroll nya smooth dan tidak kaku*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px; 
+}
+
+/*ini untuk atur body seperti ukuran, warna, jenis font, background tampilan */
+body {
+  color: white;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, #1a1a1a, #002582);
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/*untuk atur navbar nya*/
+.navbar {
+  background-color: black;
+  background-image: linear-gradient(to bottom right, #000350, #0801c2);
+  position: fixed;
+  display: inline-flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 999;
+}
+
+.navbar img{
+  display: flex;
+  justify-content: left;
+  width: 5vh;
+  height: 5vh;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #fff;
+  background-color: #555;
+}
+
+/* ini atur main. padding top biar ga ketutup navbar. diplay buat ngatur posisi content */
+main {
+  padding-top: 72px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*ini buat atur content per section nya.*/
+/*-------Home Section-------*/
+#home {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#home video{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+  z-index: 0;
+}
+
+.hero-text{
+  position: relative;
+  z-index: 1px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+}
+
+/*-------About Section-------*/
+
+#about{
+  padding: 15px;
+  margin: 50px;
+  border: #555;
+  border-radius: 5px;
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(to bottom right, #2a2929, #0f0f0f);
+  text-align: left;
+}
+
+#about h2{
+  padding: 25px 0 15px 25px;
+}
+
+.about-content{
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  padding: 0 45px 15px 25px;
+}
+
+.about-content img{
+  border: #555;
+  border-radius: 15px;
+  width: 20vw;
+  height: 25vh;
+}
+
+.about-content p{
+  text-align: justify;
+}
+
+/*-------Project Section-------*/
+
+#project{
+  padding: 15px 105px 15px 105px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #2a2929, #0f0f0f);
+  text-align: center;
+}
+
+#project h2{
+  padding: 25px 0 25px 0;
+}
+
+.project-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.project-1{
+  display: block;
+  border-radius: 15px;
+  text-align: justify;
+  background-color: black;
+}
+
+.project-1 img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-1 .p-text{
+  padding: 15px;
+}
+
+.project-2{
+  display: block;
+  border-radius: 15px;
+  text-align: justify;
+  background-color: black;
+}
+
+.project-2 img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-2 .p-text{
+  padding: 15px;
+}
+
+.project-3{
+  display: block;
+  border-radius: 15px;
+  text-align: justify;
+  background-color: black;
+}
+
+.project-3 img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-3 .p-text{
+  padding: 15px;
+}
+
+
+
+#contact{
+  padding: 10px;
+  margin: 50px;
+  border: #555;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #2a2929, #0f0f0f);
+  text-align: center;
+}
+
+#form{
+  display: block;
+  text-align: left;
+  padding: 1.5rem;
+}
+
+#form label{
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+  font-weight: bold;
+}
+
+#form input{
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #e0e0e0;
+}
+
+#form textarea{
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #e0e0e0;
+}
+
+button{
+  background: linear-gradient(145deg, #2d2d2d, #3d3d3d);
+  color: #e0e0e0;
+  padding: 1rem 2rem;
+  border: 1px solid #444;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  
+}

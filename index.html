@@ -21,8 +21,9 @@
 
 <body>
 
-  <header>
-    <nav id="navbar">
+  <header id="header">
+    <nav class="navbar">
+      <img src="images/logo-r.png" alt="logo-r">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Me</a></li>
@@ -34,32 +35,60 @@
 
   <main>
     <section id="home">
-      <h1>Hi I'm Raihan and a fresh graduate from informatics engineering.</h1>
-      <p>This simple website is part of my learning journey to improve my web development skills.</p>
-    </section>
+      <video autoplay muted loop>
+        <source src="images/themehome.mov" type="video/mp4">
+        Browsmu ga support.
+      </video>
 
-    <hr>
+      <div class="hero-text">
+        <h1>Hi I'm Raihan</h1>
+      <p>Welcome to my simple.</p>
+      </div>
+    </section>
 
     <section id="about">
       <h2>About Me</h2>
-      <img src="images/foto1.png" alt="foto-profil">
-      <p>I’m Raihan Aliff Wahyudinnur, a fresh graduate in Informatics Engineering. I started with little knowledge of coding, so I explored various areas during college. I’ve learned the basics of HTML, CSS, JavaScript, C++, Python, and created simple websites and apps. Currently, I’m studying at RevoU to sharpen my web development skills and grow as a developer.</p>
+      <div class="about-content">
+        <img src="images/foto1.png" alt="foto-profil">
+        <p>I’m Raihan Aliff Wahyudinnur, a fresh graduate in Informatics Engineering. I started with little knowledge of coding, so I explored various areas during college. I’ve learned the basics of HTML, CSS, JavaScript, C++, Python, and created simple websites and apps. Currently, I’m studying at RevoU to sharpen my web development skills and grow as a developer.</p>
+      </div>
     </section>
-
-    <hr>
 
     <section id="project">
       <h2> My Project</h2>
-      <article>
-        <p>Coming Soon</p>
-      </article>
+      <div class="project-content">
+
+        <div class="project-1">
+       <img src="images/logo-r.png">
+       <div class="p-text">
+        <h3>Portofolio Website</h3>
+        <p>Simple webite to introduce my self</p>
+       </div>
+     </div>
+
+     <div class="project-2">
+       <img src="images/logo-r.png">
+       <div class="p-text">
+        <h3>Portofolio Website</h3>
+        <p>Simple webite to introduce my self</p>
+       </div>
+     </div>
+
+     <div class="project-3">
+       <img src="images/logo-r.png">
+       <div class="p-text">
+        <h3>Portofolio Website</h3>
+        <p>Simple webite to introduce my self</p>
+       </div>
+     </div>
+     </div>
+     
     </section>
-    
-    <hr>
     
     <section id="contact"> 
       <h2> Contact Me</h2>
       <p>Contact me if you have concern and want to ask for something. Feel free.</p>
+      
       <form action="" method="get" id="form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="What is your Name? ^^" required/>
@@ -78,11 +107,10 @@
       </form>
     </section>
 
-    <hr>
-
   </main>
 
   <footer>
+    <div foote></div>
     <p>&copy; 2025 Raihan. All rights reserved</p>
   </footer>
   
