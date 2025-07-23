@@ -23,8 +23,8 @@
 
   <header id="header">
     <nav class="navbar">
-      <img src="images/logo-r.png" alt="logo-r">
-      <ul>
+      <img src="images/logo-r.png" id="logo-nav" alt="logo-r">
+      <ul id="menu-list" class="hiddenlist">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Me</a></li>
         <li><a href="#project">Project</a></li>
@@ -35,14 +35,11 @@
 
   <main>
     <section id="home">
-      <video autoplay muted loop>
-        <source src="images/themehome.mov" type="video/mp4">
-        Browsmu ga support.
-      </video>
+      <img src="images/hero-img.png" alt="hero-image">
 
       <div class="hero-text">
-        <h1>Hi I'm Raihan</h1>
-      <p>Welcome to my simple.</p>
+        <h1>Hi, I'm Raihan</h1>
+      <p>Welcome to my simple portofolio website.</p>
       </div>
     </section>
 
@@ -50,7 +47,12 @@
       <h2>About Me</h2>
       <div class="about-content">
         <img src="images/foto1.png" alt="foto-profil">
-        <p>I’m Raihan Aliff Wahyudinnur, a fresh graduate in Informatics Engineering. I started with little knowledge of coding, so I explored various areas during college. I’ve learned the basics of HTML, CSS, JavaScript, C++, Python, and created simple websites and apps. Currently, I’m studying at RevoU to sharpen my web development skills and grow as a developer.</p>
+        <p>Hello, my name is Raihan Aliff Wahyudinnur, a graduate of the Bachelor of Computer Science program. 
+          I successfully completed my studies and graduated on time. However, I didn’t stop there. I continue to hone my skills to become even better. 
+          I have a strong interest in software development, particularly web applications and backend systems.
+           I am comfortable working both independently and as part of a team, and I always strive to create functional and user-friendly solutions. 
+           I have a strong desire to learn and stay updated on the latest technological advancements. Through the Full-Stack Software Engineering program at RevoU, 
+           I aim to further develop my skills and contribute to the field of technology.</p>
       </div>
     </section>
 
@@ -58,50 +60,79 @@
       <h2> My Project</h2>
       <div class="project-content">
 
-        <div class="project-1">
-       <img src="images/logo-r.png">
+      <div class="project-card" id="card-1">
+        <a href="https://revou-fsse-jun25.github.io/milestone-1-Rayliff/">
+          <img src="images/project-1.png">
+          <div class="p-text">
+          <h3>Portofolio Website</h3>
+          <p>Simple website to introduce my self</p>
+       </div>
+        </a>
+       
+     </div>
+
+     <div class="project-card" id="card-2">
+       <img src="images/hero-img.png">
        <div class="p-text">
-        <h3>Portofolio Website</h3>
-        <p>Simple webite to introduce my self</p>
+        <h3>Cooming Soon</h3>
+        <p>-</p>
        </div>
      </div>
 
-     <div class="project-2">
-       <img src="images/logo-r.png">
+     <div class="project-card" id="card-3">
+       <img src="images/hero-img.png">
        <div class="p-text">
-        <h3>Portofolio Website</h3>
-        <p>Simple webite to introduce my self</p>
+        <h3>Cooming Soon</h3>
+        <p>-</p>
        </div>
      </div>
 
-     <div class="project-3">
-       <img src="images/logo-r.png">
+     <div class="project-card" id="card-4">
+          <img src="images/hero-img.png">
+          <div class="p-text">
+          <h3>Cooming Soon</h3>
+          <p>-</p>
+       </div>
+     </div>
+
+     <div class="project-card" id="card-5">
+       <img src="images/hero-img.png">
        <div class="p-text">
-        <h3>Portofolio Website</h3>
-        <p>Simple webite to introduce my self</p>
+        <h3>Cooming Soon</h3>
+        <p>-</p>
+       </div>
+     </div>
+
+     <div class="project-card" id="card-6">
+       <img src="images/hero-img.png">
+       <div class="p-text">
+        <h3>Cooming Soon</h3>
+        <p>-</p>
        </div>
      </div>
      </div>
+
      
+     
+
     </section>
     
     <section id="contact"> 
-      <h2> Contact Me</h2>
+      <h2> Drop Me a Message </h2>
       <p>Contact me if you have concern and want to ask for something. Feel free.</p>
       
       <form action="" method="get" id="form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="What is your Name? ^^" required/>
 
-        <br>
-
+        
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Input your Email here" required>
 
-        <br>
+        
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="2" required> </textarea>
+        <textarea id="message" name="message" rows="2"  required> </textarea>
 
         <button type="submit">Send</button>
       </form>
@@ -110,9 +141,15 @@
   </main>
 
   <footer>
-    <div foote></div>
-    <p>&copy; 2025 Raihan. All rights reserved</p>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Raihan. All rights reserved</p>
+    </div>
+    
   </footer>
   
+  <script src="script.js"></script>
 </body>
 </html>
+
+
