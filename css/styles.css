@@ -379,12 +379,37 @@ footer{
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
   position: relative;
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   letter-spacing: 0.5px;
-  
+}
+
+.footer-sosmed{
+  margin: 1rem;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%); */
+}
+
+.footer-sosmed a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #090d7c;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-sosmed a:hover{
+  background: #6964f5;
 }
 
 /* Responsive untuk mobile dengan max-width nya 768px */
