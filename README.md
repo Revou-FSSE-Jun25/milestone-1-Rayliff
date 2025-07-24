@@ -1,19 +1,30 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
-# Portofolio Website
-This simple website was created by Raihan Aliff Wahyudinnur as part of completing Module 1 in Milestone 1.
+[Lihat Website](https://namakamu.github.io/portfolio/)
+
+# Raihan Aliff Protofolio
+
+## Overview
+
+Situs web sederhana ini dirancang sebagai portofolio pribadi saya. Website ini memuat informasi tentang saya, daftar projek yang pernah dibuat, serta formulir kontak untuk pengunjung yang ingin menghubungi. Tampilan situs ini dibuat responsif, sehingga nyaman diakses melalui desktop maupun perangkat mobile.
 
 ## Features
-- Home section
-- About section
-- Projects section
-- Contact form
+
+- Navigasi bar sederhana dan responsif  
+- Halaman:
+  - **Home**: Tampilan awal dengan hero text dan background pembuka
+  - **About Me**: Profil dan latar belakang
+  - **Projects**: Daftar projek dengan efek hover dan bayangan
+  - **Contact**: Formulir kontak sederhana
+- Tampilan responsif untuk berbagai ukuran layar (desktop & HP)
 
 ## Technologies Used
-- HTML
-- CSS (Cooming Soon)
-- JS (Cooming Soon)
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+## Development Tools
+
+- Visual Studio Code
 - Git & GitHub
 
-## Deployment
-Hosted on GitHub Pages  
-👉 [https://revou-fsse-jun25.github.io/milestone-1-Rayliff/]
