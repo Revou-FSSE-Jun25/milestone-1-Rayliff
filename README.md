@@ -42,7 +42,8 @@ Berikut adalah tampilan website sederhana portofolio saya. Saya akan mulai dari 
 #### 1. Home-page, tampilan awal desktop akan disambut dengan hero-section dan navbar terdapat diatasnya. Anda bisa menggunakan tombol navbar dengan klik tombol salah satunya agar diarahkan ke page yang ingin dituju.
 ![readme-1](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-1.png)
 Ini adalah tampilan tombol jika di klik. Bisa dilihat tombol Home berubah warna.
-![readme-2](https://github.com/Revou-FSSE-Jun25/milestone-2-Rayliff/blob/main/images/readme-1.png)
+
+![readme-2](https://github.com/Revou-FSSE-Jun25/milestone-2-Rayliff/blob/main/images/readme-2.png)
 
 #### 2. About-page, pada halaman ini adalah profil singkat dengan foto.
 ![readme-3](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-3.png)
@@ -60,7 +61,8 @@ Pada project-card sebelah kiri adalah tampilan jika diklik dan anda akan diarahk
 #### 5. Footer, pada bagian ini terdapat social media yang dapat anda kunjungi. Kalian dapat mengklik salah satunya.
 ![readme-7](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-7.png)
 
-Tombol akan berubah warna jika diklik
+Tombol akan berubah warna jika diklik.
+
 ![readme-8](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-8.png)
 
 ## Author
