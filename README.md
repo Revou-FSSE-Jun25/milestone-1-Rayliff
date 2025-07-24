@@ -43,7 +43,7 @@ Berikut adalah tampilan website sederhana portofolio saya. Saya akan mulai dari 
 ![readme-1](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-1.png)
 Ini adalah tampilan tombol jika di klik. Bisa dilihat tombol Home berubah warna.
 
-![readme-2](https://github.com/Revou-FSSE-Jun25/milestone-2-Rayliff/blob/main/images/readme-2.png)
+![readme-2](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-2.png)
 
 #### 2. About-page, pada halaman ini adalah profil singkat dengan foto.
 ![readme-3](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-3.png)
@@ -64,6 +64,25 @@ Pada project-card sebelah kiri adalah tampilan jika diklik dan anda akan diarahk
 Tombol akan berubah warna jika diklik.
 
 ![readme-8](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-8.png)
+
+### Tampilan Mobile
+
+Tidak ada banyak perubahan dan kurang lebih sama dengan versi dekstop, tapi berikut adalah tampilan mobilenya:
+
+#### 1.Home-page with sidebar
+![readme-9](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-9.png)
+Klik Logo untuk membuka sidebar
+
+![readme-10](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-10.png)
+
+#### 2. About-page
+![readme-11](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-11.png)
+
+#### 3. Project-page
+![readme-12](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-12.png)
+
+#### 4. Contact form with footer
+![readme-13](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-13.png)
 
 ## Author
 
