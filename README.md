@@ -1,22 +1,22 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
 
-## [Lihat Website](https://revou-fsse-jun25.github.io/milestone-1-Rayliff/)
+## [View Website](https://revou-fsse-jun25.github.io/milestone-1-Rayliff/)
 
-# Raihan Aliff Protofolio
+# Raihan Aliff Portfolio
 
 ## Overview
 
-Situs web sederhana ini dirancang sebagai portofolio pribadi saya. Website ini memuat informasi tentang saya, daftar projek yang pernah dibuat, serta formulir kontak untuk pengunjung yang ingin menghubungi. Tampilan situs ini dibuat responsif, sehingga nyaman diakses melalui desktop maupun perangkat mobile.
+This simple website is designed as my personal portfolio. It contains information about me, a list of projects I have worked on, and a contact form for visitors who wish to get in touch. The website is designed to be responsive, making it easy to access on both desktop and mobile devices.
 
 ## Features
 
-- Navigasi bar sederhana dan responsif  
-- Halaman:
-  - **Home**: Tampilan awal dengan hero text dan background pembuka
-  - **About Me**: Profil dan latar belakang
-  - **Projects**: Daftar projek dengan efek hover dan bayangan
-  - **Contact**: Formulir kontak sederhana
-- Tampilan responsif untuk berbagai ukuran layar (desktop & HP)
+- Simple and responsive navigation bar
+- Pages:
+- **Home**: Home page with hero text and background image
+- **About Me**: Profile and background
+  - **Projects**: List of projects with hover effects and shadows
+  - **Contact**: Simple contact form
+- Responsive design for various screen sizes (desktop & mobile)
 
 ## Technologies Used
 
@@ -29,56 +29,57 @@ Situs web sederhana ini dirancang sebagai portofolio pribadi saya. Website ini m
 - Visual Studio Code
 - Git & GitHub
 
-## Cara Mengakses
+## How to Access
 
-Buka website melalui [link ini](https://revou-fsse-jun25.github.io/milestone-1-Rayliff/)
+Open the website via [this link](https://revou-fsse-jun25.github.io/milestone-1-Rayliff/)
 
 ## Website Preview (Desktop & Mobile View)
 
-Berikut adalah tampilan website sederhana portofolio saya. Saya akan mulai dari tampilan awal desktop dan dilanjutkan tampilan mobile.
+Here is a preview of my simple portfolio website. I will start with the desktop home page and continue with the mobile view.
 
-### Tampilan Desktop
+### Desktop Display
 
-#### 1. Home-page, tampilan awal desktop akan disambut dengan hero-section dan navbar terdapat diatasnya. Anda bisa menggunakan tombol navbar dengan klik tombol salah satunya agar diarahkan ke page yang ingin dituju.
+#### 1. Home page: The desktop home page will display a hero section with a navigation bar above it. You can use the navigation bar buttons by clicking on one of them to be directed to the page you want to visit.
 ![readme-1](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-1.png)
-Ini adalah tampilan tombol jika di klik. Bisa dilihat tombol Home berubah warna.
+
+This is what the button looks like when clicked. You can see that the Home button changes color.
 
 ![readme-2](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-2.png)
 
-#### 2. About-page, pada halaman ini adalah profil singkat dengan foto.
+#### 2. About page, this page contains a brief profile with a photo.
 ![readme-3](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-3.png)
 
-#### 3. Project-page, menampilkan project yang sudah pernah saya buat sebelumnya. Anda dapat mengklik salah satu project-card saya jika ingin melihat detail lebih lanjut.
+#### 3. Project-page, displays projects I have created previously. You can click on one of my project cards if you want to see more details.  
 ![readme-4](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-4.png)
 
-Pada project-card sebelah kiri adalah tampilan jika diklik dan anda akan diarahkan ke projek saya.
+The project card on the left shows what it looks like when clicked, and you will be directed to my project.  
 ![readme-5](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-5.png)
 
-
-#### 4. Contact-page, anda bisa menghubungi saya dengan mengisi form-contact yang sudah disediakan.
+#### 4. Contact page: You can contact me by filling out the contact form provided.  
 ![readme-6](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-6.png)
 
-#### 5. Footer, pada bagian ini terdapat social media yang dapat anda kunjungi. Kalian dapat mengklik salah satunya.
+#### 5. Footer, this section contains social media links that you can visit. You can click on any of them.
 ![readme-7](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-7.png)
 
-Tombol akan berubah warna jika diklik.
+The button will change color when clicked.
 
 ![readme-8](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-8.png)
 
-### Tampilan Mobile
+### Mobile View
 
-Tidak ada banyak perubahan dan kurang lebih sama dengan versi dekstop, tapi berikut adalah tampilan mobilenya:
+There are not many changes and it is more or less the same as the desktop version, but here is the mobile view:
 
-#### 1.Home-page with sidebar
+#### 1.Home page with sidebar
 ![readme-9](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-9.png)
-Klik Logo untuk membuka sidebar
+
+Click the logo to open the sidebar
 
 ![readme-10](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-10.png)
 
-#### 2. About-page
+#### 2. About page
 ![readme-11](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-11.png)
 
-#### 3. Project-page
+#### 3. Project page
 ![readme-12](https://github.com/Revou-FSSE-Jun25/milestone-1-Rayliff/blob/main/images/readme-12.png)
 
 #### 4. Contact form with footer
