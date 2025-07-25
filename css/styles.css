@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+/* untuk custom font */
+h1,h2,h3,h4,h5,p{
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /*ini untuk ngescroll nya smooth dan tidak kaku*/
 html {
   scroll-behavior: smooth;
@@ -147,8 +154,8 @@ main {
 .about-content img{
   border: #555;
   border-radius: 15px;
-  width: 50vw;
-  height: 55vh;
+  width: 25%;
+  aspect-ratio: 1/1;
 }
 
 .about-content p{
@@ -425,10 +432,6 @@ footer{
     height: auto;
     padding: 2rem 3rem;
   }
-  #about img {
-    width: 20vw;
-    height: 25vh;
-  }
 
   #about p{
     font-size: 1.2rem;
@@ -519,11 +522,6 @@ footer{
     padding: 0;
   }
 
-  #about img {
-    width: 45vw;
-    height: 35vh;
-  }
-
   /* -----Project Section----- */
   #project {
     padding: 1rem;
@@ -568,10 +566,6 @@ footer{
     font-size: 0.9rem;
   }
 
-  .about-content img {
-    width: 80vw;
-  }
-
   .navbar ul {
     gap: 0.3rem;
   }
@@ -580,4 +574,7 @@ footer{
     font-size: 0.9rem;
     padding: 0.8rem;
   }
+
 }
+
+
